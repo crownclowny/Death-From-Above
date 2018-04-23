@@ -8,12 +8,11 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour {
 
     [Header("Wave Settings")]
-    public GameObject hazard; // What are we spawning?
-   // public Vector2 spawnValue; // Where do we spawn our hazards?
-    public int hazardCount; // How many hazards per wave?
-    public float startWait; // How long until the first wave?
-    public float spawnWait; // How long between each hazard in each wave?
-    public float waveWait; // How long between each wave of enemies?
+    public GameObject hazard; 
+    public int hazardCount; 
+    public float startWait; 
+    public float spawnWait; 
+    public float waveWait; 
     public Transform target;
     private float width, height, levelMinX, levelMaxX;
     public float smoothDampTime = 0.15f;

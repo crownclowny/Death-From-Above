@@ -32,7 +32,7 @@ public class PauseController : MonoBehaviour {
         Time.timeScale = Time.timeScale == 0 ? 1 : 0; // Ternary statement
         PlayAudio();
 
-        /*
+        
         if(Time.timeScale == 0)
         {
             Time.timeScale = 1;
@@ -40,7 +40,7 @@ public class PauseController : MonoBehaviour {
         {
             Time.timeScale = 0;
         }
-        */
+        
     }
 
     private void PlayAudio()
